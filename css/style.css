@@ -46,6 +46,11 @@ body {
   font-size: 28px;
   font-weight: bold;
   padding-bottom: 25px;
+  position: relative;
+}
+.advice-container p::before,
+.advice-container p::after {
+  content: ' " ';
 }
 .advice-container .line {
   margin: 5px auto;
